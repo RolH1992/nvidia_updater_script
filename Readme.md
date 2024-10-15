@@ -19,7 +19,9 @@ powershell
 
 
 .\nvidia_updater_script.ps1
-(Optional) Schedule the Script with Task Scheduler:
+(Optional) 
+
+Schedule the Script with Task Scheduler:
 Open Task Scheduler by pressing Windows + R, typing taskschd.msc, and pressing Enter.
 Click "Create Task..." and give it a name like "NVIDIA Updater Script."
 In the General tab, check "Run with highest privileges" to ensure it has the permissions needed for driver updates.
