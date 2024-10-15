@@ -1,7 +1,5 @@
 # NVIDIA Driver Updater Script
-
-## Description
-This PowerShell script checks for the latest NVIDIA drivers on the official NVIDIA website, downloads the latest driver, and installs it automatically. Notifications are displayed for successful or failed operations.
+A PowerShell script designed to automatically check for the latest NVIDIA GPU drivers, download the newest version if available, and install it silently. This tool helps users keep their NVIDIA drivers up-to-date without the need to manually search for updates or navigate through the NVIDIA website.
 
 ## Features
 - Automatically checks for the latest NVIDIA drivers.
