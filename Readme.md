@@ -11,10 +11,24 @@ A PowerShell script designed to automatically check for the latest NVIDIA GPU dr
 - PowerShell (Windows)
 - An internet connection to check for driver updates.
 
-## How to Use
-1. Download or clone the repository to your local machine.
-2. Open PowerShell as an Administrator.
-3. Navigate to the directory where the script is saved.
-4. Run the script using the following command:
-   ```powershell
-   .\nvidia_updater_script.ps1
+Download or clone the repository to your local machine.
+Open PowerShell as an Administrator.
+Navigate to the directory where the script is saved.
+Run the script using the following command:
+powershell
+
+
+.\nvidia_updater_script.ps1
+(Optional) Schedule the Script with Task Scheduler:
+Open Task Scheduler by pressing Windows + R, typing taskschd.msc, and pressing Enter.
+Click "Create Task..." and give it a name like "NVIDIA Updater Script."
+In the General tab, check "Run with highest privileges" to ensure it has the permissions needed for driver updates.
+
+Go to the Actions tab, click "New...", and set the Program/script to:
+powershell.exe
+Set Add arguments to:
+-File "C:\Users\Documents\project_folder\nvidia_updater_script.ps1"
+
+Set a trigger under the Triggers tab to specify when the script should run (e.g., daily).
+Click OK to save the task, and enter your password if prompted.
+The script will now run automatically according to the schedule you set.
