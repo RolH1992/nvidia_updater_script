@@ -29,7 +29,7 @@ In the General tab, check "Run with highest privileges" to ensure it has the per
 Go to the Actions tab, click "New...", and set the Program/script to:
 powershell.exe
 Set Add arguments to:
--File "C:\Users\Documents\project_folder\nvidia_updater_script.ps1"
+-File "C:\Users\Path\project_folder\nvidia_updater_script.ps1"
 
 Set a trigger under the Triggers tab to specify when the script should run (e.g., daily).
 Click OK to save the task, and enter your password if prompted.
